@@ -47,5 +47,15 @@ public class Phone {
 
     }
 
+    public void orderNew(){
+        if (isAvailiable){
+            System.out.println("The phone is already in stock!");
+        }
+        else {
+            isAvailiable=true;
+            System.out.println("The phone is now in stock!");
+        }
+    }
+
 
 }
